@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'helpers/color_schemes.g.dart';
 import 'modules/home/home_page.dart';
 
 void main() {
@@ -14,9 +15,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Personal Information',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        colorScheme: lightColorScheme,
       ),
+      darkTheme: ThemeData(
+        useMaterial3: true,
+        colorScheme: darkColorScheme,
+      ),
+      themeMode: ThemeMode.system,
+      debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
     );
   }
