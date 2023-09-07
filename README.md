@@ -1,14 +1,14 @@
-# personal_information
-
-HNG Stage One Task.
-
-## Getting Started
+# HNG-X x I4G Internship Stage One Task
 
 This project is the first task for the HNG-X x I4G internship. It is a simple flutter app that displays my personal information.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Install Flutter and Dart on your machine. [Click here](https://flutter.dev/docs/get-started/install) for instructions.
+- Clone the repository
+- Open the project in your preferred IDE
+- Run the project
+
+## Demo
+
+
