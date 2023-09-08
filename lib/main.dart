@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Personal Information',
+      title: 'Slack Information',
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: lightColorScheme,

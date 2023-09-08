@@ -3,6 +3,21 @@ import 'package:flutter/services.dart';
 
 import '../webview/github_webview.dart';
 
+enum ScreenSize { small, medium, large }
+
+const _breakpoint1 = 600.0;
+const _breakpoint2 = 840.0;
+
+ScreenSize getScreen(double width) {
+  if (width < _breakpoint1) {
+    return ScreenSize.small;
+  } else if (width >= _breakpoint1 && width <= _breakpoint2) {
+    return ScreenSize.medium;
+  } else {
+    return ScreenSize.large;
+  }
+}
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -184,20 +199,5 @@ class _MyHomePageState extends State<MyHomePage> {
       context,
       MaterialPageRoute(builder: (context) => const GithubWebview()),
     );
-  }
-}
-
-enum ScreenSize { small, medium, large }
-
-const _breakpoint1 = 600.0;
-const _breakpoint2 = 840.0;
-
-ScreenSize getScreen(double width) {
-  if (width < _breakpoint1) {
-    return ScreenSize.small;
-  } else if (width >= _breakpoint1 && width <= _breakpoint2) {
-    return ScreenSize.medium;
-  } else {
-    return ScreenSize.large;
   }
 }
