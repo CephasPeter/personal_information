@@ -13,6 +13,6 @@ This project is the first task for the HNG-X x I4G internship. It is a simple fl
   https://appetize.io/app/l6fyfo2kxyjbn46qzgwqjnatia?device=pixel6&osVersion=12.0&scale=75
 
 ## Note
-- Running on android 11 and below on Appetize.io will result in a crash. Try using a real device or running on android 12 and above.
+- Running on android 11 and below on Appetize.io will result in a crash. Try using a real device or run it on android 12 and above.
 
 
